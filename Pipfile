@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+plotly = "*"
+wordcloud = "*"
+matplotlib = "*"
+seaborn = "*"
+bs4 = "*"
+emoji = "*"
+nltk = "*"
+scikit-learn = "*"
+catboost = "*"
+lightgbm = "*"
+xgboost = "*"
+tensorflow = "*"
+jinja2 = "*"
+nbformat = "==5.10.4"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
